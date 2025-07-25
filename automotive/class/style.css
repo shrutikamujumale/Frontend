@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav2 a{
+    color: black;
+    
+}
+.nav2 a:hover{
+    color: green;
+
+}
+.nav_section{
+    width: 100%;
+    height: 900px;
+    background-image: url(../images/background/bg_1\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+.hero_form{
+    background-color: #1089ff;
+}
+.hero_form input{
+    color: aliceblue;
+    background-color: #1089ff;
+    border: 2px solid white;
+}
+/* lastest */
+.latest_block i{
+    border-radius: 50%;
+    
+}
+/* earn section */
+.earn_section{
+    position: relative;
+    width: 100%;
+    height: 488px;
+    background-image: url(../images/illustration/about.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    
+}
+.earn_container overlay{
+    position: absolute;
+    top: -120px;
+    left: -100px;
+    right: 0;
+    bottom: -120px;
+    width: 40%;
+    content: '';
+    opacity: 1;
+    background: #01d28e;
+}
+/* testimonial */
+.testimonial_card img{
+    width: 150px;
+    border-radius: 50%;
+    
+}
+/* footer_list */
+.footer_section{
+    background-color: black;
+}
+.footer_list ul{
+    color: grey;
+    list-style-type: none;
+}
