@@ -1,0 +1,968 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* NAVBAR */
+@media(min-width:320px){
+    
+    
+.background{
+   
+    width:100vw;
+    height: 600px;
+    background-image: url(../images/background/back1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 20px;
+    
+}
+.background1{
+    height: 600px;
+    background-color: rgb(55, 69, 82);
+    opacity: 0.8;
+    
+}
+/* .main{
+    width: 100vw;
+    height: 650vh;
+} */
+ 
+.nav1{
+    display: none;
+/*    
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    gap: 500px; */
+   
+    
+}
+.nimg{
+    /* display: none; */
+}
+.nhr{
+   display: none;
+}
+
+.nav2{
+    list-style-type: none;
+    display: flex;
+    margin-top: 20px;
+    gap: 30px;
+    
+     
+}
+.a1{
+    /* display: none; */
+    text-decoration: none;
+    color: white;
+}
+.a1:hover{
+    /* display: none; */
+    text-decoration: underline orangered;
+    
+} 
+
+/* MAIN */
+.main1{
+    
+    width: 290px;
+    height: 250px;
+    display: flex;
+  align-items: center;
+  padding-top: 80px;
+
+}
+.main2{
+    width: 290px;
+    /* 
+    height: 100px; */
+    margin-left: 20px;
+    font-size: 20px;
+    color: white;
+}
+/* .mah1{
+    width: 200px;
+    height: 100px;
+    font-size: 30px;
+    
+}
+.map1{
+    width: 200px;
+    height: 100px;
+    font-size: 30px;
+   
+} */
+.but1{
+    border: 1px white;
+    border-radius: 30px ;
+    padding: 10px 20px;
+    color: white;
+    background-color: orangered;
+}
+.but1:hover{
+    color: orangered;
+    background-color: white;
+}
+/* Welcome to Edusite */
+
+.header1{
+    padding: 30px;
+    font-size: 20px;
+    
+
+}
+
+.welcome1{
+
+    margin-top: 20px;
+/*     
+    align-items: center;
+    justify-content: center; */
+}
+.welcome2{
+    
+    /* display: flex;
+    justify-content: space-evenly; */
+    
+}
+
+li{
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+.img1{
+    
+    border-radius: 50%;
+    padding: 20px;
+}
+.welcomeimg{
+    width: 300px;
+    height: 250px;
+}
+/* Explore Courses */
+.header2{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+    
+}
+.hr1{
+    width: 300px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    
+}
+.course1{
+    position: relative;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 50px;   
+}
+.course2{
+    width: 290px;
+}
+.imgco{
+    width: 290px;
+    height: 193px;
+    border-radius: 20px;
+}
+
+.free1{
+    display: flex;
+    justify-content: space-between;
+    color: grey;
+}
+.free1 p{
+    color: green;
+}
+.premium1{
+    display: flex;
+    justify-content: space-between;
+    color: grey; 
+}
+.premium1 p{
+    color: red;
+}
+.but2{
+    
+    border: 1px rgb(255, 68, 1);
+    border-radius: 30px ;
+    padding: 10px 20px;
+    color: white;
+    background-color: orangered;
+}
+.but2:hover{
+    border: 1px solid orangered;
+    color: orangered;
+    background-color: white;
+    
+} 
+
+/* NEW BACKGROUND SECTION */
+.background2{
+    margin-top: 40px;
+    width: 100vw;
+    height: 450px;
+    background-image: url(../images/background/back2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    opacity: 20px;
+}
+.background3{
+    height: 450px;
+    background-color: rgb(55, 69, 82);
+    opacity: 0.8;  
+}
+.article1{
+    height: 300px;
+    display: flex;
+    align-items: center;
+}
+.article2{
+    margin-left: 70px;
+    color: white;
+    padding: 5px;
+    
+}
+/* why section */
+.header3{
+    width: 300px;
+    height: 60px;
+    margin-top: 40px;
+    text-align: center;
+    font-size: 20px;
+}
+.why1{
+    margin-top: 40px;
+    /* display: flex;
+    justify-content: space-evenly; */
+
+}
+.why2{
+    width: 290px;
+    /* display: flex;
+    align-items: center; */
+    list-style-type: none;
+    font-size: 30px;
+}
+.hr2{
+    margin-left: 70px;
+    margin-right: 70px;
+    color: rgb(55, 69, 82);
+}
+/* ABOUT 2 */
+.ab1{
+    margin-top: 90px;
+    /* display: flex;
+    justify-content: space-evenly;
+    align-items: center; */
+    
+}
+.a2{
+    width: 290px;
+    font-size: 15px;
+    /* width: 30vw;    */
+    color: rgb(55, 69, 82);
+}
+.a2 h3{
+    color: black;
+}
+
+.img3{
+    width: 290px;
+    height: 200px;
+    border-radius: 7px;
+    margin-left: 10px;
+}
+
+/* backgruond 3 */
+.backgrnd3{
+    width: 100vw;
+    height: 300px;
+    background-image: url(../images/background/back3.jpg);
+    color: white;
+    text-align: center;
+    
+ 
+}
+.b3{
+    font-size: 20px;
+    padding-top: 40px;
+}
+
+/* FOOTER */
+.foot2{
+    /* display: flex;
+    justify-content: space-evenly; */
+}
+.u1{
+    width: 200px;
+    height: 90px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    /* gap: 20px;   */
+    
+}
+.afoot{
+    margin-top: 20px;
+    text-decoration: none;
+    color: black ;
+}
+.afoot:hover{
+    text-decoration: underline orange;
+    color: orangered;
+}
+}
+
+@media(min-width:768px){
+    .background{
+        width: 100vw;
+        height: 750px;
+        background-image: url(../images/background/back1.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100% ;
+        opacity: 20px;
+        
+        
+    }
+    .background1{
+        height: 750px;
+        background-color: rgb(55, 69, 82);
+        opacity: 0.8;
+        
+    }
+    .nav1{
+   
+        display: flex;
+        justify-content: space-evenly;
+        padding: 20px;
+        gap: 100px;
+       
+        
+    }
+    .nimg{
+        display: flex;
+    }
+    .nhr{
+        /* display: none; */
+    }
+    
+    
+    .nav2{
+        
+        /* display: none; */
+        list-style-type: none;
+        display: flex;
+        margin-top: 20px;
+        gap: 20px;
+        
+    }
+    .a1{
+        /* display: none; */
+        text-decoration: none;
+        color: white;
+    }
+    .a1:hover{
+        /* display: none; */
+        text-decoration: underline orangered;
+        color: white;
+        
+    } 
+    /* MAIN */
+.main1{
+    width: 100vw;
+    height:660px ;
+    display: flex;
+  align-items: center;
+  padding-top: 0px;
+
+}
+.main2{
+    width: 640px;
+    /* margin-left: 0px; */
+    font-size: 28px;
+    color: white;
+}
+.but1{
+    border: 1px white;
+    border-radius: 30px ;
+    padding: 10px 20px;
+    color: white;
+    background-color: orangered;
+}
+.but1:hover{
+    color: orangered;
+    background-color: white;
+}
+/* Welcome to Edusite */
+
+.header1{
+    width: 620px;
+    /* text-align: center; */
+    /* padding: 30px; */
+    font-size: 18px;
+    
+
+}
+
+.welcome1{
+    margin-top: 20px;
+    width: 720px;
+    /* align-items: center;
+    justify-content: center; */
+}
+.welcome2{
+    width: 720px;
+    /* display: flex;
+    justify-content: space-evenly; */
+    
+}
+
+.list1 li{
+    width: 720px;
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+.img1{
+    border-radius: 50%;
+    padding: 20px;
+}
+.welcomeimg{
+    width: 600px;
+    height: 600px;
+    padding-left: 40px;
+}
+.list1{
+    width: 300px;
+}
+/* Explore Courses */
+.header2{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+    
+}
+.hr1{
+    width: 300px;
+    /* margin-top: 30px;
+    margin-bottom: 10px; */
+    
+}
+.course1{
+    position: relative;
+    margin: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 50px;   
+}
+.imgco{
+    width: 300px;
+    height: 300px;
+}
+
+.free1{
+    display: flex;
+    justify-content: space-between;
+    color: grey;
+    /* gap: 40px; */
+    
+}
+.free1 p{
+    color: green;
+}
+.premium1{
+    display: flex;
+    justify-content: space-between;
+    color: grey;
+    /* gap: 30px;  */;
+}
+.premium1 p{
+    color: red;
+}
+.caption{
+    width: 200px;
+    display: block;
+    
+}
+.but2{
+    
+    border: 1px rgb(255, 68, 1);
+    border-radius: 30px ;
+    padding: 10px 20px;
+    color: white;
+    background-color: orangered;
+}
+.but2:hover{
+    border: 1px solid orangered;
+    color: orangered;
+    background-color: white;
+    
+} 
+
+/* NEW BACKGROUND SECTION */
+.background2{
+    margin-top: 40px;
+    width: 100vw;
+    height: 300px;
+    background-image: url(../images/background/back2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 20px;
+}
+.background3{
+    height: 300px;
+    background-color: rgb(55, 69, 82);
+    opacity: 0.8;  
+}
+.article1{
+    height: 300px;
+    display: flex;
+    align-items: center;
+}
+.article2{
+    margin-left: 70px;
+    color: white;
+    padding: 5px;
+    
+}
+/* why section */
+.header3{
+    margin-top: 40px;
+    text-align: center;
+    font-size: 20px;
+}
+.header3 h2{
+    width: 720px;
+    
+}
+.header3 p{
+    width: 720px;
+    
+}
+.why1{
+    width: 100vw;
+    margin-top: 40px;
+    /* display: flex;
+    justify-content: space-evenly; */
+
+}
+.why2{
+    width: 720px;
+    /* display: flex;
+    align-items: center; */
+    list-style-type: none;
+    font-size: 20px;
+}
+.hr2{
+    margin-left: 70px;
+    margin-right: 70px;
+    color: rgb(55, 69, 82);
+}
+/* ABOUT 2 */
+.ab1{
+    margin-top: 90px;
+    /* display: flex; */
+    /* justify-content: space-evenly; */
+    /* align-items: center;
+     */
+}
+.a2{
+    font-size: 20px;
+    width: 720px;   
+    color: rgb(55, 69, 82);
+}
+.a2 h3{
+    color: black;
+}
+
+.img3{
+    width: 720px;
+    height: 480px;
+    border-radius: 7px;
+}
+/* backgruond 3 */
+.backgrnd3{
+    margin-top: 40px;
+    width: 100vw;
+    height: 250px;
+    background-image: url(../images/background/back3.jpg);
+    color: white;
+    text-align: center;
+    
+ 
+}
+.b3{
+    width: 720px;
+    font-size: 20px;
+    padding-top: 40px;
+}
+/* FOOTER */
+.foot1{
+    
+    margin: 60px 60px;
+}
+.foot2{
+/*     
+    display: flex;
+    justify-content: space-evenly; */
+    
+}
+
+.u1{
+    list-style-type: none;
+    /* display: flex;
+    justify-content: space-evenly; */
+    gap: 20px;  
+}
+.afoot{
+    margin-top: 20px;
+    text-decoration: none;
+    color: black ;
+}
+.afoot:hover{
+    text-decoration: underline orange;
+    color: orangered;
+}
+.copyright{
+    margin: 60px;
+    text-align: center;
+}
+
+}
+
+
+
+
+@media(min-width:992px){
+    .background{
+        width: 100vw;
+        height: 750px;
+        background-image: url(../images/background/back1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover ;
+        background-position: center;
+        opacity: 20px;
+        
+        
+    }
+    .background1{
+        
+        height: 750px;
+        background-color: rgb(55, 69, 82);
+        opacity: 0.8;
+        
+    }
+    .nav1{
+       width: 930px;
+        display: flex;
+        justify-content: space-evenly;
+        padding: 20px;
+        
+       
+        
+    }
+    .nimg{
+        
+       
+    }
+    .nhr{
+    width: 100vw;
+    }
+    
+    
+    .nav2{
+        list-style-type: none;
+        display: flex;
+        margin-top: 20px;
+        gap: 30px;
+        
+    }
+    .a1{
+        text-decoration: none;
+        color: white;
+    }
+    .a1:hover{
+        text-decoration: underline orangered;
+        
+    } 
+    /* MAIN */
+.main1{
+    width: 900px;
+    height: 600px;
+    display: flex;
+  align-items: center;
+  padding-top: 0px;
+
+}
+.main2{
+    margin-left: 190px;
+    font-size: 30px;
+    color: white;
+}
+.but1{
+    border: 1px white;
+    border-radius: 30px ;
+    padding: 10px 20px;
+    color: white;
+    background-color: orangered;
+}
+.but1:hover{
+    color: orangered;
+    background-color: white;
+}
+/* Welcome to Edusite */
+
+.header1{
+   
+    /* text-align: center; */
+    padding: 30px;
+    font-size: 16px;
+    
+
+}
+
+.welcome1{
+    width: 900px;
+    margin-top: 20px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-evenly;
+}
+.welcome2{
+    width: 273px;
+    /* display: flex;
+    justify-content: space-evenly; */
+    
+}
+
+.list1 li{
+    width: 355px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 15px;
+   
+}
+.img1{
+    border-radius: 50%;
+    padding: 20px;
+}
+.welcomeimg{
+    margin-top: 60px;
+    width: 440px;
+    height: 400px;
+}
+.list1{
+    width: 300px;
+}
+/* Explore Courses */
+.header2{
+    width: 970px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+    
+}
+.hr1{
+  width: 200px;
+  height: 2px;
+    background-color: rgb(55, 69, 82);
+    
+}
+.course1{
+   width: 100%px;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    border-radius: 10px;
+     
+}
+.imgco{
+    width: 212px;
+    height: 255px;
+}
+
+.free1{
+    display: flex;
+    justify-content: space-between;
+    color: grey;
+   
+}
+.free1 p{
+    color: green;
+}
+.premium1{
+    display: flex;
+    justify-content: space-evenly;
+    color: grey; 
+}
+.premium1 p{
+    color: red;
+}
+.caption{
+    width: 200px;
+    display: block;
+    
+}
+.but2{
+    
+    border: 1px rgb(255, 68, 1);
+    border-radius: 30px ;
+    padding: 10px 20px;
+    color: white;
+    background-color: orangered;
+}
+.but2:hover{
+    border: 1px solid orangered;
+    color: orangered;
+    background-color: white;
+    
+} 
+
+/* NEW BACKGROUND SECTION */
+.background2{
+    width: 100vw;
+    margin-top: 40px;
+    height: 300px;
+    background-image: url(../images/background/back2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 20px;
+}
+.background3{
+    height: 300px;
+    background-color: rgb(55, 69, 82);
+    opacity: 0.8;  
+}
+.article1{
+    width: 455px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+}
+.article2{
+    margin-left: 70px;
+    color: white;
+    padding: 5px;
+    
+}
+/* why section */
+.header3{
+    margin-top: 60px;
+    text-align: center;
+    font-size: 20px;
+    
+}
+.header3 h2{
+    width: 100vw;
+    text-align: center;
+}
+.header3 p{
+    width: 100vw;
+    text-align: center;
+}
+.why1{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.why2{
+    width: 273px;
+   
+    
+    list-style-type: none;
+    font-size: 20px;
+}
+.hr2{
+    margin-left: 70px;
+    margin-right: 70px;
+    color: rgb(55, 69, 82);
+}
+/* ABOUT 2 */
+.ab1{
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.a2{
+    font-size: 20px;
+    width: 30vw;   
+    color: rgb(55, 69, 82);
+}
+.a2 h3{
+    color: black;
+}
+
+.img3{
+    width: 350px;
+    height: 240px;
+    border-radius: 7px;
+}
+
+/* backgruond 3 */
+.backgrnd3{
+    margin-top: 40px;
+    width: 100vw;
+    height: 250px;
+    background-image: url(../images/background/back3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    
+ 
+}
+.b3{
+    font-size: 20px;
+    padding-top: 40px;
+}
+/* FOTTER */
+.foot1{
+    
+    margin: 60px 60px;
+}
+.foot2{
+    
+    display: flex;
+    justify-content: space-evenly;
+}
+.u1{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;  
+}
+.afoot{
+    margin-top: 20px;
+    text-decoration: none;
+    color: black ;
+}
+.afoot:hover{
+    text-decoration: underline orange;
+    color: orangered;
+}
+.copyright{
+    margin: 60px;
+    text-align: center;
+}
+}
+
