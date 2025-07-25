@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* nav section */
+.nav2 a:hover{
+    color: orangered;
+}
+.nav1 button{
+    color: orangered;
+}
+/* hero section */
+.hero_section{
+    width: 100%;
+    height:80vh;
+    background-image: url(../images/background/home-banner\ \(3\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/* service section */
+.service_img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgb(248, 207, 214);
+}
+/* project section */
+.project_menu ul{
+    list-style-type: none;
+}
+.project_menu li:hover{
+    color: orangered;
+}
+
+/* review */
+.review_img img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+/* footer */
+.footer_section{
+    background-color: black;
+}
+.footer_list li{
+    list-style-type: none;
+}
+.footer_list button{
+    background-color: orangered;
+    
+}
+.footer_list span{
+    color: orangered;
+    
+}
+.footer_bottom span{
+    color: orangered;
+}
+
+
+/* about page start */
+.about_hero_section{
+    width: 100%;
+    height: 300px;
+    background-image: url(../images/background/bg_about4.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/* about section end */
+/* service page start */
+.service_hero_section{
+    width: 100%;
+    height: 300px;
+    background-image: url(../images/background/bg_about4.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.provide_img{
+    
+    width: 80%;
+    height: 100px;
+    border-radius: 50%;
+    
+}
+.provide_img img{
+    
+    width: 100px;
+    height: 100px;
+    
+}
+/* service section end */
+/* contact page start */
+.map_contact{
+ width:600px;
+ height: 600px;
+ background-image: url(../images/background/map1.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+}
+.map_title button{
+    background-color: orangered;
+}
