@@ -1,0 +1,588 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@media(min-width:320px){
+    /* NAVBAR */
+    .head1{
+        width: 150px;
+        
+       position: relative;
+        top: 5px;
+        bottom: 0px;
+        left: 10px;
+        right: 0px;
+        font-size: 13px; 
+        
+        
+        
+        
+        
+        
+    }
+    .head1 span{
+        color: #57ccc3;
+    }
+    .head1 p{
+        color: grey;
+    }
+    .nav1{
+        background-color: white;
+        position: fixed;
+        width: 100vw;
+        height: 60px;
+        /* padding: 15px; */
+       
+        
+      
+        
+    }
+    .nav2{
+        display: none;
+        /* margin-top: 10px; */
+    }
+    /* HERO SECTION */
+   
+    .main1{
+        
+        width: 100vw;
+        height: 678px;
+        background-image: url(../images/background/home_slider.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+       align-items: center;
+        
+    
+       
+       
+    }
+
+    .head2{
+        
+        margin-left: 10px;
+        width: 290px;
+        height: 330px;
+        box-sizing: border-box;
+        
+        
+        
+    }
+   
+    .head2 h5{
+        width: 60% ;   
+        color: #57ccc3;
+        font-size: 15px
+        
+        
+    }
+    .head2 h2{
+        width: 290px;
+        height: 86px;
+        font-size: 36px;
+        
+    }
+    .head2 p{
+        width: 290px;
+        
+        color: grey;
+        font-size: 12px;
+        box-sizing: border-box;
+    }
+    .button1{
+        
+        background-color: #fd556d;
+        color: white;
+        border-radius: 20px ;
+        padding: 7px;
+        border: #fd556d;
+        font-size: 9px;
+    }
+    
+    .button1:hover{
+        background-color: white;
+        color: #fd556d;
+        border: 2px solid #fd556d;
+       
+    }
+    .button2{
+       
+        background-color: #57ccc3;
+        color: white;
+        border-radius: 20px ;
+        padding: 7px;
+        border: #57ccc3;
+        font-size: 9px;
+    }
+    .button2:hover{
+        background-color: white;
+        color: #57ccc3;
+        border: 2px solid #57ccc3;
+       
+    }
+    /* SECTION & TAbLE */
+    .sec2{
+        width: 290px;
+    }
+   .head3{
+    margin-top: 60px;
+     width: 290px;   
+   }
+   .head3 span,p{
+        color: grey;
+   }
+   .head3 h2{
+        color: black;
+
+   }
+   .table1{
+    border: 2px solid white;
+    width: 100%;
+    height: 270px;
+    padding-left: 33px;
+    padding-right: 34px;
+    padding-bottom: 63px;
+    padding-top: 136px;
+    box-shadow: 10px 10px 9px 3px rgb(89, 86, 86);
+   }
+   .table1 th{
+    padding: 5px;
+    background-color: #57ccc3;
+    height: 40px;
+    
+   }
+   .table1 input{
+    width: 100px;
+    height: 50px;
+   }
+   .table1 button{
+    position: relative;
+    top: 0px;
+    bottom: 0px;
+    left: 50px;
+    right: 0px;
+     background-color: #fd556d;
+     border: 2px solid #fd556d;
+     border-radius: 20px;
+     color: white;
+     padding: 10px;
+   }
+   .table1 button:hover{
+     background-color: white;
+     border: 2px solid #fd556d;
+     border-radius: 20px;
+     color: #fd556d;
+   }
+   /* WHY SECTION */
+   .why1{
+    background-color: #eff3f7;
+    padding: 20px;
+   }
+   .logo1{
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   }
+   .img2{
+    width: 50px;
+    height: 50px;
+    background-color: #57ccc3;
+    border-radius: 50%;
+   }
+   .logo1 span{
+    width: 210px;
+   }
+   .img3{
+    width:280px;
+    height: 231px;
+    background-color: #eff3f7;
+    padding-top: 10px;
+  
+   }
+   /* APPOINTMENT TODAY */
+   .app1{
+    width: 100%;
+    height: 309px;
+    background-color: #fd556d;
+    color: white;
+
+
+   }
+   .app2{
+    width: 290px;
+    height: 150px;
+    
+   
+    
+   }
+   .head5{
+    width: 290px;
+    padding: 10px;
+   }
+   .head5 h2{
+    font-size: 28px;
+    line-height: 1.5;
+   }
+   .app2 h4{
+    width: 200px;
+   
+    background-color: #f72c4b;
+     border: 2px solid #fd556d;
+     border-radius: 30px;
+     font-size: 24px;
+     padding: 20px;
+   }
+   /* footer  */
+   .foot1{
+    height: 200px;
+    background-color: rgb(74, 71, 71);
+   }
+   .foot2{
+    width: 290px;
+    padding: 10px;
+   }
+   .list2{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 13px;
+   }
+   .list2 a{
+    text-decoration: none;
+    
+    color: white;
+    color: black;
+
+   }
+}
+
+
+
+
+@media(min-width:768px){
+    /* NAVBAR */
+    .head1{
+        
+        width: 150px;
+        position: relative;
+        top: 10px;
+        bottom: 0px;
+        left: 30px;
+        font-size: 18px;
+       
+
+        
+    }
+    .head1 span{
+        color: #57ccc3;
+    }
+    .head1 p{
+        color: grey;
+    }
+    .nav1{
+
+        /* width: 100vw;
+        height: 100px; */
+        
+        /* display: flex;
+        justify-content: space-evenly; */
+        
+    }
+    .nav2{
+        /* margin-top: 10px; */
+       display: none;
+    }
+   
+    /* HERO SECTION */
+    /* .main1{
+       
+        width: 100vw;
+        height: 100vh;
+        background-image: url(../images/background/home_slider.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        
+       
+    } */
+    .head2{
+        width: 700px;
+        left: 20px;
+        
+       
+    }
+    .head2 h5{
+        width: 550px;
+        color: #57ccc3;
+        font-size: 30px
+        
+        
+        
+    }
+    .head2 h2{
+        width: 550px;
+        font-size: 60px;
+        
+    }
+    .head2 p{
+        width: 550px;
+        color: grey;
+        font-size: 13px;
+    }
+    /* sec& table */
+    .sec2{
+        width: 690px;
+        padding-left: 30px;
+    }
+    .head3{
+        width: 650px;
+    }
+    .head3 span,p{
+        font-size: 18px;
+    }
+    .head3 h2{
+        font-size: 48px;
+
+    }
+    .table1{
+        width: 690px;
+        margin-top: 30px;
+    }
+    .table1 input{
+        width: 300px;
+        height: 60px;
+    }
+    
+    /* WHY SECTION */
+    .why1{
+        background-color: #e8e7e7;
+        padding: 30px;
+       }
+       .head4 h2{
+        font-size: 48px;
+        
+       }
+       .logo1{
+    
+        display: flex;
+       justify-content: start;
+        align-items: center;
+        padding: 10px;
+       }
+       .logo1 span{
+        width: 372px;
+       }
+       .img3{
+        width:690px;
+        height: 551px;
+        background-color: #eff3f7;
+        vertical-align: middle;
+        border-style: none;
+        padding-top: 10px;
+      
+       }
+       /* APPOINTMENT TODAY */
+       .head5{
+        width: 720px;
+        /* padding: 10px; */
+        text-align: center;
+       }
+       .head5 h2{
+        font-size: 35px;
+        /* line-height: 1.5; */
+       }
+    
+       .app2 h4{
+        width: 315px;
+        font-size: 30px;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+       }
+      
+       .app1{
+        height: 257px;
+    }
+    /* footer */
+    .foot1{
+        height: 100px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .foot2{
+        width: 300px;
+        padding: 30px;
+       }
+}
+@media(min-width:992px){
+    /* NAVBAR */
+    .head1{
+        position: relative;
+        top: 10px;
+        bottom: 0px;
+        left: 10px;
+        right: 0px;
+        /* padding-right: 30px; */
+       
+        
+    }
+    .head1 span{
+        color: #57ccc3;
+    }
+    .head1 p{
+        color: grey;
+        
+    }
+    .nav1{
+        width: 100vw;
+        height: 115px;
+        display: flex;
+        /* padding: 0px 102px 0px 100px; */
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+      
+        
+    }
+    .nav2{
+        
+        /* margin-top: 10px; */
+       display: flex;
+       justify-content: start;
+    }
+    .list1{
+        position: relative;
+        top: 30px;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        list-style-type: none;
+        display: flex;
+        justify-content: start;
+        gap: 10px;
+       
+       
+        
+        
+    }
+    .list1 a{
+        text-decoration: none;
+        color: black;
+    }
+    .list1 a:hover{
+        text-decoration: none;
+        color: #57ccc3;
+    }
+    
+    .nav2 button{
+        position: relative;
+        top: 20px;
+        bottom: 0px;
+        left: 60px;
+        right: 0px;
+        width: 200px;
+        height: 30px;
+        padding: 0px 36px 0px 40;
+        color: white;
+        background-color: #fd556d;
+        border: 2px solid #fd556d;
+        border-radius: 20px;
+      
+    }
+    .nav2 button:hover{
+        background-color: white;
+        color: #fd556d;
+        
+    }
+
+    /* HERO SECTION */
+    .main1{
+        
+        width: 100vw;
+        height: 100vh;
+        background-image: url(../images/background/home_slider.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center ;
+        /* display: flex;
+        align-items: center;  */
+       
+         
+    }
+    .head2{
+        width: 920px;
+    }
+    /* table& section */
+    .sec1{
+        width: 900px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .head3{
+        width: 450px;
+        height: 500px;
+        margin-left: 10px;
+    }
+    .head3 span,p{
+            color: grey;
+       }
+       .head3 h2{
+            color: black;
+    
+       }
+       .table1{
+        border: 2px solid white;
+        width: 450px;
+        height: 400px;
+        box-sizing: border-box;
+        box-shadow: 9px 9px 9px 3px rgb(89, 86, 86);
+        
+       }
+       .table1 th{
+        padding: 7px;
+        background-color: #57ccc3;
+        height: 50px;
+        
+       }
+       .table1 input{
+        width: 170px;
+        height: 70px;
+       }
+       .table1 button{
+        width: 200px;
+        margin-top: 10px;
+         padding: 10px;
+        
+       }
+       /*why section  */
+       .head4{
+        width: 450px;
+       }
+       .logo1 span{
+        width: 450px;
+       }
+       .logo1{
+        width: 450px;
+       }
+       .img3{
+        width:450px;
+        height: 500px;
+       }
+       .why1{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
+
+       }
+       /* APPOINTMENT TODAY */
+       .head5{
+        width: 970px;
+        /* padding: 10px; */
+        text-align: center;
+       }
+
+}
